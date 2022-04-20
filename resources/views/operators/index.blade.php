@@ -15,9 +15,9 @@
 </body>
 </html>
 
-     <div class="container" style="position: relative; margin-top:3%;">
+     <div class="container " style="position: relative; margin-top:3%;">
          <div class="row">
-             <div class="col-md-9">
+             <div class="col-md-12">
                  <div class="card">
                      <div class="card-header">
                          <h4 style="position: absolute; left:38%;">Bus Operators</h4>
@@ -25,11 +25,11 @@
                      </div>
                      <div class="card-body">
 
-                        <table class="table table-hovered bg-light">
+                        <table class="table table-hover bg-light">
 
-                            <thead>
+                            <thead class="bg-info">
                                 <tr>
-                                    <th>ID</th>
+                                   
                                     <th>Profile Image</th>
                                     <th>Operator Name</th>
                                     <th>Address</th>
@@ -42,7 +42,7 @@
                             <tbody>
                                 @foreach ($operator as $item)
                                 <tr>
-                                    <td>{{$item->id}}</td>
+                                    
                                     <td><img src="{{asset('images/operatorsavatar/'.$item->profile_image)}}" width="50px" height="50px" alt="Image" style="border-radius: 50%"></td>
                                     <td>{{$item->operator_name}}</td>
                                     <td>{{$item->address}}</td>

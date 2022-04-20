@@ -15,12 +15,12 @@
 </body>
 </html>
 
-     <div class="container" style="position: relative; margin-top:3%; left:10%;">
+     <div class="container">
          <div class="row">
-             <div class="col-md-10">
+             <div class="col-md-12">
 
                 @if (session('status'))
-                <h6 class="alert alert-success">
+                <h6 class="alert alert-success" style="position: relative; margin-top:4%;">
                   {{session('status')}}
                 </h6>
                     

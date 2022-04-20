@@ -15,9 +15,9 @@
 </body>
 </html>
 
-     <div class="container" style="position: relative; margin-top:3%; left:10%;">
+     <div class="container" style="position: relative; margin-top:3%;">
          <div class="row">
-             <div class="col-md-10">
+             <div class="col-md-9">
                  <div class="card">
                      <div class="card-header">
                          <h4 style="position: absolute; left:38%;">Bus Operators</h4>

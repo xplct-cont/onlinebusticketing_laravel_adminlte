@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Bookings;
+use App\Models\Operator;
 use DB;
 use DateTime;
 
@@ -31,7 +32,7 @@ class HomeController extends Controller
 
         $booking = DB::table('bookings')->count();
         $bus = DB::table('buses')->count();
-
+        $operator = DB::table('operators')->count();
 
 
           //For Charts and Gaphs
@@ -47,7 +48,7 @@ class HomeController extends Controller
 
               //for bus operators
               $admins = User::all();
-        return view('home', compact('booking', 'bus', 'admins'),['data' => $data]);
+        return view('home', compact('booking', 'bus', 'operator','admins'),['data' => $data]);
 
     }
 }

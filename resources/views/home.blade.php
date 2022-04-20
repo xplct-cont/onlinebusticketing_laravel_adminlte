@@ -76,13 +76,13 @@
    <div class="cardthree">
      <div class="card elevation-3" style="width: 14rem; background-color: #d9534f;">
         <div class="card-block">
-            <h6>&nbsp;Testing Shits</h6>
-            <h2 class="text-right"> <i class=""></i><span>{{$bus}} &nbsp;</span></h2>
+            <h6>&nbsp;Total Operators</h6>
+            <h2 class="text-right"> <i class=""></i><span>{{$operator}} &nbsp;</span></h2>
           <div class="sf">
-            <i class="fa fa-bus f-left"></i>
+            <i class="fa fa-circle f-left"></i>
           </div>
         </div>
-        <a href="{{url('/buses')}}" class="btn btn-light" style="font-size: 13px; color: gray;">Show Details</a>
+        <a href="{{url('/operators.index')}}" class="btn btn-light" style="font-size: 13px; color: gray;">Show Details</a>
       </div>
    </div>
 

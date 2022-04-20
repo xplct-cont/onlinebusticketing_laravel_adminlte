@@ -27,6 +27,17 @@
     </a>
 </li>
 
+<li class="nav-item">
+    <a href="{{ route('operators.index') }}"
+       class="nav-link {{ Request::is('operators*') ? 'active' : '' }}">
+        <p>Edit Operators</p>
+        <i class="fas fa-circle fa-pull-left fa-md "></i>
+        <hr size="1" color="grey">
+    </a>
+</li>
+
+
+
 
 
 <style>

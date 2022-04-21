@@ -28,7 +28,7 @@
 
                  <div class="card">
                      <div class="card-header">
-                         <h4 style="position: absolute; left:38%;">Add Bus Operator with Image</h4>
+                         <h4 style="position: absolute; left:38%; color:dimgray;">Add Bus Operator</h4>
                          <a href="{{url('operators.index ')}}" class="btn btn-danger float-start" >Back</a>
                      </div>
                      <div class="card-body">

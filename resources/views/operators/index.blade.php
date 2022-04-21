@@ -20,7 +20,7 @@
              <div class="col-md-12">
                  <div class="card">
                      <div class="card-header">
-                         <h4 style="position: absolute; left:38%;">Bus Operators</h4>
+                         <h4 style="position: absolute; left:38%; color:dimgray;">Bus Operators</h4>
                          <a href="{{url('add-operator')}}" class="btn btn-info float-start" >Add Bus Operator</a>
                      </div>
                      <div class="card-body">

@@ -349,7 +349,7 @@
             <img class="logo"
                src="{{url('/images/iconbus.png')}}"
                  alt="infyom logo " width="100px" height="100px">
-                 <h4> &nbsp Online Bus Ticketing Inc.</h4>
+                 <h4> &nbsp Online Bus Ticketing</h4>
         </div>
 
         <div class="mt-8 bg-info overflow-hidden shadow sm:rounded-lg ">

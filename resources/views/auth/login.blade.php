@@ -43,7 +43,7 @@
     <!-- /.login-box-body -->
 
     <div class="sh">
-        <h3>&nbsp&nbsp&nbsp&nbsp&nbspOnline Bus Ticketing Inc.</h3>
+        <h3>&nbsp&nbsp&nbsp&nbsp&nbspOnline Bus Ticketing</h3>
     </div>
     <div class="card">
         <div class="card-body login-card-body bg-info">

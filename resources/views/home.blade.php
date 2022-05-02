@@ -101,11 +101,11 @@
 </div>
 
   <div class="chartCont">
-  <div id="chartContainer" style="height: 360%; width: 80%; position:relative; left:20%;"></div>
+  <div id="chartContainer" style="height: 30rem; width: 80%; position:relative; left:20%;"></div>
   </div>
    <div class="row">
     <div class="cardlast">
-      <div class="card elevation-0 card-outline card-dark scroll" style="width: 18rem; height:23rem; background-color: white;">
+      <div class="card elevation-0 card-outline card-dark scroll" style="width: 20rem; height:30rem; background-color: white;">
         <h4>Administrators</h4>
          <table class="table table-hover text-dark">
             @foreach($admins as $item)
